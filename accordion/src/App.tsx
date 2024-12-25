@@ -1,11 +1,14 @@
 import './App.css'
-import { Accordion } from './components/Accordion'
+// import { Accordion } from './components/Accordion'
+import { StartRating } from './components/StartRating';
 
 function App() {
 
   return (
     <div className='App'>
-      <Accordion />
+      {/* <Accordion /> */}
+      <h1>Start Rating Component</h1>
+      <StartRating noOfStars={10}/>
     </div>
   )
 }
